@@ -1,0 +1,289 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.logo {
+    position: relative;
+    left: -90px;
+    margin-top: 12px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navlist {
+    list-style-type: none;
+    display: flex;
+}
+
+.navlist li {
+    padding: 4px 30px;
+    margin: 8px;
+}
+
+.navlist li a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.navlist li a:hover {
+    color: black;
+    opacity: 0.7;
+}
+
+.main_container {
+    display: flex;
+    justify-content: center;
+}
+
+.text_container {
+    margin: 20px 70px 4px 4px;
+    padding: 20px;
+    width: 400px;
+    font-weight: normal;
+}
+
+#main_line {
+    font-size: 2.4rem;
+    font-weight: bold;
+}
+
+#section_one {
+    background-color: rgb(214, 213, 212);
+}
+
+#btn {
+    background-color: black;
+    color: white;
+    margin: 8px 0 4px 0;
+    padding: 8px 60px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#btn:hover {
+    background-color: black;
+    opacity: 0.8;
+}
+
+.star {
+    margin: 8px 0 8px 0;
+}
+
+.brands {
+    margin: 14px 0 4px 0;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0;
+    margin-top: 20px;
+}
+
+.imageContainer {
+    width: 400px;
+    margin: 25px 4px 4px 80px;
+    text-align: center;
+    padding: 16px 4px 4px 20px;
+}
+
+#sectionImage {
+    border-radius: 10px;
+    opacity: 0.9;
+    margin-top: 0;
+}
+
+#firstbrand {
+    margin-top: 10px;
+    margin-left: -18px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+#secondbrand {
+    margin-top: 24px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+#thirdbrand {
+    margin-top: 12px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+#fourthbrand {
+    margin-top: 8px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.mainContainer2 {
+    display: flex;
+}
+
+.videoContainer {
+    margin-top: 0.5rem;
+    margin-left: 2.5rem;
+}
+
+iframe {
+    border-radius: 10px;
+    margin-top: 1.5rem;
+}
+
+.textContainer2 {
+    width: 400px;
+    margin-top: 1.3rem;
+    margin-left: 8rem;
+}
+
+.secondHeading {
+    font-size: 2rem;
+}
+
+.videoText {
+    font-size: 1rem;
+    width: 500px;
+}
+
+#watchVideo {
+    background-color: rgb(249, 85, 25);
+    color: white;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 30px;
+    margin-top: 1rem;
+}
+
+#watchVideo:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.mainContainer3 {
+    display: flex;
+}
+
+.textContainer3 {
+    width: 400px;
+    margin-left: 4rem;
+    margin-top: 1rem;
+}
+
+.thirdHeading {
+    font-size: 1.7rem;
+}
+
+.thirdPara {
+    font-size: 1.2rem;
+}
+
+.imageContainer3 {
+    margin-left: 14rem;
+    margin-top: 3rem;
+}
+
+#thirdImage {
+    border-radius: 8px;
+}
+
+.fa-check {
+    color: white;
+    font-size: 1.3rem;
+    margin: 4px;
+    padding: 4px;
+    background-color: rgb(249, 85, 25);
+    border-radius: 50%;
+}
+
+.features {
+    font-weight: bold;
+}
+
+.mainContainer4 {
+    display: flex;
+    margin: 20px;
+}
+
+.textContainer4 {
+    width: 450px;
+    padding: 20px;
+    margin-left: 2rem;
+    margin-top: 0.3rem;
+}
+
+#fourthImage {
+    border-radius: 20px;
+    padding: 10px;
+    margin-left: 8.6rem;
+}
+
+#btn2 {
+    background-color: rgb(249, 85, 25);
+    color: white;
+    border-radius: 6px;
+    padding: 10px 30px;
+    text-align: center;
+    font-weight: 700;
+    border: none;
+    margin-top: 20px;
+}
+
+#btn2:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.mainFooterContainer {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(179, 187, 195);
+    padding: 10px;
+}
+
+.list {
+    list-style-type: none;
+}
+
+.list li {
+    padding: 4px;
+}
+
+.list a {
+    text-decoration: none;
+    color: white;
+}
+
+.list a:hover {
+    color: antiquewhite;
+    cursor: pointer;
+}
+
+.logoContainer {
+    text-align: center;
+}
+
+#footerLogo {
+    margin-top: 4rem;
+}
+
+.footerPara {
+    font-size: 1.3rem;
+    text-align: center;
+    border-bottom: 2px solid rgb(231, 100, 35);
+    font-weight: bold;
+}
+
+#para1 {
+    margin-left: 1rem;
+}
+
+.lastContainer {
+    background-color: rgb(88, 100, 111);
+    text-align: center;
+    padding: 8px;
+    color: wheat;
+}
